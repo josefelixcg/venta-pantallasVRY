@@ -1,0 +1,64 @@
+h1{
+    color: white;
+    font-size: 35px;
+
+}
+
+
+body{
+    background:rgb(114, 114, 209);
+}
+div.card{
+ background: black;
+}
+h5.card-title{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+p.card-text{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+   
+} 
+
+a.btn btn-primary{
+    font-size: 10px;
+    color: white;
+}
+#pantallas{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width:768px){
+   h1{
+    font-size: 20px;
+   }
+   h5.card-title{
+    font-size: 15px;
+    
+}
+p.card-text{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+   
+} 
+a.btn btn-primary{
+    font-size: 5px;
+   
+}
+
+a.nav-link{
+    font-size: 10px;
+   }
+   
+   #pantallas{
+    display: flex;
+    justify-content: space-around;
+}
+
+    
+  }

@@ -1,0 +1,91 @@
+#pantalla{
+    display: flex;
+ 
+    }
+    div.a{
+        width: 30%;
+        height: 100vh;
+        
+    }
+    div.b{
+        width: 40%;
+        height: 100vh;
+    
+    }
+    div.c{
+        width: 30%;
+        height: 100vh;
+        
+    }
+    h1{
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
+    input{
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+    }
+     ::placeholder{
+        color: rgba(124, 5, 228, 0.596);
+        text-align: center
+     }
+    select{
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    option{
+        color: rgba(124, 5, 228, 0.596);
+        text-align: center
+    }
+    button{
+        width: 200px;
+        height: 20px;
+        border-radius: 10px;
+        border: none;
+        background: blue;
+        color: white;
+    }
+body{
+    background:  rgb(114, 114, 209);
+
+}
+
+@media (max-width:768px){
+    h1{
+        font-size: 20px;
+       
+    }
+    select{
+        width: 100px;
+        height: 20px;
+        border-radius: 8px;
+    }
+    div.a{
+        width: 28%;
+        height: 100vh;
+        
+    }
+    div.b{
+        width: 44%;
+        height: 100vh;
+    
+    }
+    div.c{
+        width: 28%;
+        height: 100vh;
+        
+    }
+    #pantalla{
+        display: flex;
+     justify-content: space-around;
+        }
+        input{
+            width: 100px;
+            height: 20px;
+            border-radius: 8px;
+        }
+}
+    

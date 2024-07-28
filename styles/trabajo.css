@@ -1,0 +1,58 @@
+#pantalla{
+    display: flex;
+    }
+    div.a{
+        width: 33%;
+        height: 100vh;
+        
+    }
+    div.b{
+        width: 34%;
+        height: 100vh;
+    }
+    div.c{
+        width: 33%;
+        height: 100vh;
+        
+    }
+    h1{
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
+    input{
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+    }
+     ::placeholder{
+        color: rgba(124, 5, 228, 0.596);
+        text-align: center
+     }
+    select{
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+    }
+    option{
+        color: rgba(124, 5, 228, 0.596);
+        text-align: center
+    }
+    button{
+        width: 200px;
+        height: 20px;
+        border-radius: 10px;
+        border: none;
+        background: blue;
+        color: white;
+    }
+body{
+    background: rgb(114, 114, 209);
+
+}    
+@media (max-width:768px){
+    h1{
+        font-size: 20px;
+       
+    }
+}
